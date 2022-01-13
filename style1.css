@@ -1,0 +1,111 @@
+body {
+    background: url(fitness-1882721_1920.jpg);
+    color: white;
+    /* height: 1270px; */
+}
+
+.left {
+
+    display: inline-block;
+    height: 102px;
+    width:  98px;
+    margin: 3px 34px;
+}
+
+.left img {
+    padding-left: 8px;
+    height: 60px;
+    width: 70px;
+}
+
+.mid {
+    /* border: 2px solid  red; */
+    display: inline-block;
+    width: 54%;
+    position: absolute;
+    top: 7px;
+    left: 385px;
+    /* margin:; */
+}
+
+.navbar li{
+    /* margin: 2px; */
+    display: inline-block;
+    padding:  0px 12px;
+    box-sizing: border-box;
+}
+.navbar li a {
+text-decoration: none;
+font-family: 'East Sea Dokdo', cursive;
+font-size: 30px;
+color: white;
+}
+.navbar li a:hover{
+    color: rgb(78, 78, 235);
+    font-weight: bolder;
+    cursor: pointer;
+ 
+}
+.right {
+    /* border: 2px solid red; */
+    display: inline;
+    position: absolute;
+    top: 23px;
+    right: 34px;
+    /* float: right;
+    margin: -123px 40px; */
+
+}
+
+#textlogo {
+    font-family: 'Zen Dots', cursive;
+    line-height: 18px;
+}
+.btn{
+    box-sizing: border-box;
+    height: 30px;
+    width: 84px;
+    margin: 3px 4px;
+    padding: 6px 4px;
+    background-color:black;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(73, 211, 204);
+    border:black;
+}
+.btn:hover{
+    background-color: grey;
+    color:black;
+}
+.container{
+    font-size: 18px;
+    /* border:rgb(23, 197, 7) solid 2px; */
+    display: block;
+    width: 40%;
+    margin: 2px auto;
+}
+.container h1{
+    color: blanchedalmond;
+    /* background-color: white; */
+    display: block;
+    margin: 35px 50px;
+    width: 87%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 4px;
+    margin: 2px auto;
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(217, 243, 212);
+}
+.form button{
+    display: block;
+    margin:  0px auto;
+    align-items: center;
+}
